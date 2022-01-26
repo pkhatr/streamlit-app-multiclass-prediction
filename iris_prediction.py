@@ -27,7 +27,7 @@ with open('le.pkl', 'rb') as input_file:
     le = pickle.load(input_file)
 
 
-st.title('Iris Flower Species Prediction')
+st.title('Iris Plant Species Prediction')
 
 st.sidebar.header('Input Parameters')
 sepal_length = st.sidebar.number_input('Sepal Length', min_value=4.0, max_value=8.5, value=5.5)
